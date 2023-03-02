@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    /* width: 80%; */
+    padding: 20px;
+    gap: 3.5rem;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items{
+    display: flex;
+    text-decoration: none;
+}    
+.menu{
+    display: flex;
+    background-color: lightgreen;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding: 2rem;
+}
+.top{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 70%;
+}
+.Image{
+    background-image: url(./assets/images/image-web-3-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.botleft{
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+}
+.botleft1{
+    width: 50%;
+}
+.botleft1 h1{
+    font-weight: 800px;
+}
+.botleft2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: hsl(240, 100%, 5%);
+    padding: 2rem;
+    gap: 1rem;
+    /* letter-spacing: normal; */
+    
+}
+.right-txt{
+    border-bottom: 1px solid hsl(236, 13%, 42%);
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.right-txt h3{
+    color: hsl(36, 100%, 99%);
+    margin-bottom: 0.3rem;
+}
+.right-txt p{
+    color: hsl(236, 13%, 42%);
+}
+
+.bottom{
+    display: flex;
+    gap: 1rem;
+}
+.bottxt{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+
+}
+.imageBottom1{
+    background-image: url(./assets/images/image-retro-pcs.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+.imageBottom2{
+    background-image: url(./assets/images/image-top-laptops.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+.imageBottom3{
+    background-image: url(./assets/images/image-gaming-growth.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 40%; 
+} 
+.span{
+    width: 60%;
+}
+
